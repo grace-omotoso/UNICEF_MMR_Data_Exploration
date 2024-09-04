@@ -20,3 +20,5 @@ We were able to run some analysis on MMR data as described below:
 ### Required Packages
 Most of the import statements used in the project comes preinstalled except plotly. To instll plotly, use
     `pip install plotly`
+
+Note: A [medium blog post](https://medium.com/@gracomot_30241/maternity-a-blessing-or-a-death-sentence-8525a8be1256) was published to communicate the findings from this project with non technical stakeholders.
