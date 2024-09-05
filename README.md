@@ -1,10 +1,13 @@
 ## Project: Maternal Mortality Rate Analysis Among Countries (Based on UNICEF data)
 This project uses data from the UNICEF [website](https://data.unicef.org/topic/maternal-health/maternal-mortality/). UNICEF was established in 1946 by the United Nations General Assembly to provide emergency food and healthcare to children and mothers in countries that had been devastated by World War II. UNICEF's name was originally the United Nations International Children's Emergency Fund, but was shortened to the United Nations Children's Fund in 1953. UNICEF has a global presence in over 190 countries and territories.
 
-The data used in the project is explained below:
+### Project files
+The files used in the project are:
 
-    - countries: Has a list of countries with MMR rates in years 2000, 2005, 2010, 2015, 2020
-    - regions: Has a list of countries with regional information, income group and development level.
+    - countries.xlsx: Has a list of countries with MMR rates in years 2000, 2005, 2010, 2015, 2020
+    - regions.xlsx: Has a list of countries with regional information, income group and development level.
+    - unicef data exploration.ipynb: This is the project's jupyter notebook that contains our analysis
+    - README.md: This contains the motivation of the projects and description of the data used and the required packages for running the project
 
 Screenshots of the data are shown below;
  ![countries and MMR](screenshots/countries_data.png)
@@ -20,5 +23,10 @@ We were able to run some analysis on MMR data as described below:
 ### Required Packages
 Most of the import statements used in the project comes preinstalled except plotly. To instll plotly, use
     `pip install plotly`
+
+### Dataset Credit
+(2024) Maternal mortality rates and statistics — UNICEF data. Available at: https://data.unicef.org/topic/maternal-health/maternal-mortality/ (Accessed: 04 September 2024).
+
+    -   Licence: Creative Commons Licence
 
 Note: A [medium blog post](https://medium.com/@gracomot_30241/maternity-a-blessing-or-a-death-sentence-8525a8be1256) was published to communicate the findings from this project with non technical stakeholders.
